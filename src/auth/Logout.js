@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import { setAuthData } from './../redux/actions/HandleAuthData';
 import { resetAuthData } from './../redux/actions/HandleAuthData';
 import { useDispatch } from 'react-redux';
-
+import { FiLogOut } from "react-icons/fi";
 export default function Logout() {
 const dispatch = useDispatch()
 const navigate = useNavigate()
@@ -15,6 +15,6 @@ const LogOut = async()=>{
    dispatch(resetAuthData())
 }
   return (
-    <button onClick={LogOut} className={style.LogOut_btn}>Logout</button>
+    <button onClick={LogOut} className={style.LogOut_btn}>Logout <FiLogOut/> </button>
   )
 }

@@ -74,3 +74,17 @@
 .LogOut_btn:hover{
     background: red;
 }
+/*------------------------------ RefreshToken_Btn-----------------------------*/
+
+.RefreshToken_Btn{
+    position: fixed;
+    right: 80px;
+    padding: 20px;
+    border: none;
+    background: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.RefreshToken_Btn:hover{
+    background: rgb(216, 216, 216);
+}

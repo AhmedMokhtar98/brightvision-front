@@ -1,6 +1,7 @@
 import React from 'react'
 import  axios from 'axios';
-
+import style from "./style/auth.module.css";
+import { FiLock } from "react-icons/fi";
 export default function RefreshToken() {
 const Refresh = async()=>{
   const body={headers:localStorage.getItem('refreshToken').slice(1, -1) }
@@ -11,6 +12,6 @@ const Refresh = async()=>{
   localStorage.setItem("token", JSON.stringify(res.data.accessToken)); 
 }
   return (
-    <button onClick={Refresh}>RefreshToken</button>
+    <button className={style.RefreshToken_Btn} onClick={Refresh}><FiLock/> RefreshToken</button>
   )
 }
