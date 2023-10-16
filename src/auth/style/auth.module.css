@@ -77,13 +77,13 @@
 /*------------------------------ RefreshToken_Btn-----------------------------*/
 
 .RefreshToken_Btn{
-    position: fixed;
-    right: 80px;
-    padding: 20px;
+    background: #fff;
     border: none;
-    background: white;
-    font-weight: 600;
     cursor: pointer;
+    font-weight: 600;
+    padding: 20px;
+    position: fixed;
+    right: 102px;
 }
 .RefreshToken_Btn:hover{
     background: rgb(216, 216, 216);
