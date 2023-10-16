@@ -1,0 +1,76 @@
+/*------------------------------ Login Page -----------------------------*/
+.Login_Form{
+    display: grid;
+    width: 30vw;
+    position: fixed;
+    left: 50%;
+    top: 25vh;
+    transform: translateX(-50%);
+    padding: 20px;
+    box-shadow: 0px 0px 8px #b5b5b5;
+    border-radius: 7px;
+}
+.h1{
+    background: linear-gradient(45deg, #E91E63, #2196F3);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    border: solid 1px #d5d5d5;
+    border-radius: 50px;
+}
+.h5{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 100;
+    margin: 0;
+    color: grey;
+}
+.resMsg{
+    text-align: center;
+    color: #ff4848;
+}
+
+.Form_Label{
+    color: #9a9a9a;
+    margin-bottom: 5px;
+}
+
+.Form_Input{
+    width: calc(100% - 30px);
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: solid 1px #aaaaaa;
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+.Form_BTN{
+    padding: 18px;
+    margin-top: 10px;
+    background: #484848;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+.Form_BTN:hover{
+    background: rgb(0, 76, 228);
+}
+
+/*------------------------------ Logout content -----------------------------*/
+
+.LogOut_btn{
+    position: fixed;
+    right: 0;
+    padding: 20px;
+    border: none;
+    background: #ff6d6d;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.LogOut_btn:hover{
+    background: red;
+}
